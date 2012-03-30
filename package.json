@@ -17,8 +17,8 @@
   },
 
   "devDependencies": {
-    "mocha": "*",
-    "should": "*"
+    "mocha": "~ 0.13.0",
+    "should": "~ 0.5.1"
   },
 
   "engines": {
