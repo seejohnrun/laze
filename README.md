@@ -1,5 +1,7 @@
 # Lazy Properties
 
+[![Build Status](https://secure.travis-ci.org/seejohnrun/laze.png)](http://travis-ci.org/seejohnrun/laze)
+
 This is a library for easily defining lazy properties in JavaScript.
 
 To define a property:
