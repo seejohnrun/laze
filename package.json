@@ -1,13 +1,32 @@
 {
-  "name": "lazy",
+
+  "name": "laze",
   "version": "0.0.1",
+  "author": "John Crepezzi <john.crepezzi@gmail.com>",
+
+  "description": "lazy properties",
+  "keywords": ["lazy", "properties", "defineProperty"],
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seejohnrun/laze"
+  },
+
+  "directories": {
+    "lib": "./lib"
+  },
 
   "devDependencies": {
     "mocha": "*",
     "should": "*"
   },
 
+  "engines": {
+    "node": "*"
+  },
+
   "scripts": {
     "test": "mocha -r should -R spec"
   }
+
 }

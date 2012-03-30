@@ -1,7 +1,7 @@
 var libpath = process.env['LAZY_COV'] ? '../lib-cov' : '../lib';
-var lazy = require(libpath + '/lazy');
+var laze = require(libpath + '/laze');
 
-describe('lazy', function () {
+describe('laze', function () {
 
   describe('with an existing property', function () {
 
@@ -20,8 +20,8 @@ describe('lazy', function () {
     var obj;
 
     before(function () {
-      // Make it lazy
-      lazy.makeAll(object.prototype, ['name']);
+      // Make it laze
+      laze.makeAll(object.prototype, ['name']);
       // Call it twice and record the results
       obj = new object();
       results.push(obj.name);
@@ -56,7 +56,7 @@ describe('lazy', function () {
 
     before(function () {
       // Define a new property
-      lazy.defineAll(object.prototype, {
+      laze.defineAll(object.prototype, {
         name: function () {
           this.called = this.called ? this.called + 1 : 1;
           return this.response; // text context
