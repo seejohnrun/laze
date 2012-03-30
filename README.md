@@ -52,7 +52,7 @@ laze.defineAll(thing, {
 });
 ```
 
----
+## License
 
 (The MIT License)
 
