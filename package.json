@@ -1,0 +1,13 @@
+{
+  "name": "lazy",
+  "version": "0.0.1",
+
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+
+  "scripts": {
+    "test": "mocha -r should -R spec"
+  }
+}
