@@ -2,6 +2,12 @@
 
 [![Build Status](https://secure.travis-ci.org/seejohnrun/laze.png)](http://travis-ci.org/seejohnrun/laze)
 
+To require this guy:
+
+``` javascript
+var laze = require('laze');
+```
+
 Laze is a library for easily defining laze properties in JavaScript.
 
 To define a property:
