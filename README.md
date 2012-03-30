@@ -1,8 +1,8 @@
-# Lazy Properties
+# Laze
 
 [![Build Status](https://secure.travis-ci.org/seejohnrun/laze.png)](http://travis-ci.org/seejohnrun/laze)
 
-Laze is a library for easily defining laze properties in JavaScript.
+Laze is a library for easily defining lazy properties in JavaScript.
 
 ## Installation
 
