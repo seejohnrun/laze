@@ -4,6 +4,8 @@
   "version": "0.0.1",
   "author": "John Crepezzi <john.crepezzi@gmail.com>",
 
+  "homepage": "https://github.com/seejohnrun/laze",
+
   "description": "lazy properties",
   "keywords": ["lazy", "properties", "defineProperty"],
 
