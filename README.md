@@ -12,17 +12,13 @@ To install this guy:
 $ npm install laze
 ```
 
-To require this guy:
-
-``` javascript
-var laze = require('laze');
-```
-
 ## Usage
 
 To define a property:
 
 ``` javascript
+var laze = require('laze');
+
 var thing = { };
 laze.define(thing, 'func', function () {
   return 'something';
@@ -35,6 +31,8 @@ thing.func(); // does not call function
 You can also take properties that already exist and make them laze:
 
 ``` javascript
+var laze = require('laze');
+
 var thing = {
   func: function () { }
 };
@@ -45,6 +43,8 @@ laze.makeAll(thing, ['other', 'things', 'too']); // many at once
 And lastly you can define multiple at the same time:
 
 ``` javascript
+var laze = require('laze');
+
 var thing = {};
 laze.defineAll(thing, {
   name: function () { },
