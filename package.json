@@ -1,7 +1,7 @@
 {
 
   "name": "laze",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "author": "John Crepezzi <john.crepezzi@gmail.com>",
 
   "main": "./lib/laze",
